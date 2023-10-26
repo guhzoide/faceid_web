@@ -6,10 +6,10 @@ from flask import Flask, render_template, request, jsonify, send_file
 app = Flask(__name__)
 data = str((datetime.now().strftime("%Y-%m-%d_%H_%M_%S")))
 
-database = 'faceid'
-user = 'fnjp36q4rz7tzx7vozhk'
-host = 'aws.connect.psdb.cloud'
-password = 'pscale_pw_2fio17P5LOlLtFxDDrj07oh0h38FTuzKUQXTFRaV5eg'
+database = 'databae'
+user = 'user'
+host = 'host'
+password = 'password'
 
 #janelas
 @app.route('/')
