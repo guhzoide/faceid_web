@@ -13,6 +13,8 @@
 		Servidor Linux - ubuntu-server
 
 	Como Executar:
+		Configure as informações do banco de dados no inico do arquivo main.py
+ 
 		Envie a pasta FaceID para o servidor.
 		
 		Instale os pacotes necessários para rodar o projeto(requirements.txt)
