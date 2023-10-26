@@ -1,4 +1,4 @@
-# FACE_ID_WEB
+# FACE_ID
 
 #------------------------------------------------------------------------------------------------------------------------------#
 	
@@ -13,8 +13,6 @@
 		Servidor Linux - ubuntu-server
 
 	Como Executar:
-		Configure as informações do banco de dados no inico do arquivo main.py
- 
 		Envie a pasta FaceID para o servidor.
 		
 		Instale os pacotes necessários para rodar o projeto(requirements.txt)
@@ -88,4 +86,14 @@
 
 	Atualização = 26/10/2023;
 		Alterado a plataforma do sistema para WEB.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Imagens do projeto
+
+<img src="/assets/img/home.png">
+<img src="/assets/img/cadastro.png">
+<img src="/assets/img/tentativas.png">
+<img src="/assets/img/identificacao_cadastro-imagem.png">
+
 #------------------------------------------------------------------------------------------------------------------------------#
