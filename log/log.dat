@@ -1,0 +1,68 @@
+2023-08-07 20:48:37
+log de novoCadastro
+Unable to connect to 172.16.3.162: [WinError 10060] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+
+-------------------------------------------------------------------------------
+
+2023-09-04 21:06:52
+log de cadastroManual
+1045 (28000): Access denied for user '37iwgyvd3z2t5axm9ilh'
+
+-------------------------------------------------------------------------------
+
+2023-09-04 21:08:47
+log de cadastroManual
+1045 (28000): Access denied for user '37iwgyvd3z2t5axm9ilh'
+
+-------------------------------------------------------------------------------
+
+2023-10-05 18:58:06
+log de atualiza
+name 'address' is not defined
+
+-------------------------------------------------------------------------------
+
+2023-10-05 19:09:40
+log de atualiza
+name 'address' is not defined
+
+-------------------------------------------------------------------------------
+
+2023-10-14 17_11_20 
+ + log de identificar
+ + [Errno 2] No such file or directory: '.banco/nivel.dat' + 
+
+------------------------------------------------------------------------------
+
+2023-10-14 17_11_53 
+ + log de identificar
+ + 'Flask' object has no attribute 'compare' + 
+
+------------------------------------------------------------------------------
+
+2023-10-14 17_13_26 
+ + log de identificar
+ + 'Flask' object has no attribute 'compare' + 
+
+------------------------------------------------------------------------------
+
+2023-10-26_11_59_56 
+ log de salvarCad
+ 2005 (HY000): Unknown MySQL server host 'host' (11001) 
+
+------------------------------------------------------------------------------
+
+2023-10-26_11_59_56 
+ log de salvarCad
+ 2005 (HY000): Unknown MySQL server host 'host' (11001) 
+
+------------------------------------------------------------------------------
+
+2023-10-26_11_59_56 
+ log de salvarCad
+ 2005 (HY000): Unknown MySQL server host 'host' (11001) 
+
+------------------------------------------------------------------------------
+

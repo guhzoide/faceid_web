@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../static/images/faceid.png" type="image/x-icon">
+    <link rel="stylesheet" href="../static/stylecamera.css">
+    <title>Tirar foto</title>
+</head>
+<body>
+    <main>
+        <h1>Captura de Foto</h1>
+        <video id="camera" autoplay></video>
+        <form id="imagemForm" action="/salvarimg" method="POST">
+            <p id="mensagem"></p>
+            <label for="matricula">Matricula do funcionário:</label>
+            <input type="text" id="matricula" name="matricula">
+            <button type="button" id="capturar">Capturar Foto</button>
+        </form>
+        <a href="/cadastro"><button class="voltar">Voltar</button></a>
+        <canvas id="foto" style="display: none;"></canvas>
+        <img id="imagem" src="" alt="Imagem Capturada" style="display: none;">
+    </main>
+    
+    <script src="../static/Js/camera.js"></script>
+</body>
+</html>

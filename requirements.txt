@@ -1,0 +1,5 @@
+flask
+imutils
+python-facepp
+opencv-python
+mysql-connector-python

@@ -1,0 +1,45 @@
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/listatentativas.css">
+        <link rel="shortcut icon" href="../static/images/faceid.png" type="image/x-icon">
+        <title>Lista de Tentativas</title>
+    </head>
+    <body>
+        <main>
+            <h1>Tabela de Dados</h1>
+            <div class="search">
+                <label for="data-search" class="pesquisa">Pesquisar Data:</label>
+                <input type="text" id="data-search" name="data-search" placeholder="Separando com -">
+                <button onclick="searchData()" class="botao">Pesquisar</button>
+                <p>Quantidade de tentativas: {{ quantidade }}</p>
+            </div>
+            <table class="excel-table">
+                <tr>
+                    <th>ID</th>
+                    <th>Colaborador Nome</th>
+                    <th>Matricula</th>
+                    <th>CPF</th>
+                    <a href="../static/tentativas/">
+                        <th>Data</th>
+                    </a>
+                    <th>Acesso</th>
+                </tr>
+                {% for row, nome_arquivo_imagem in dados_e_imagens %}
+                    <tr>
+                        <td>{{ row[0] }}</td>
+                        <td><a href="{{ url_for('static', filename='tentativas/' + nome_arquivo_imagem) }}" class="link-data" target="_blank">{{ row[1] }}</a></td>
+                        <td>{{ row[2] }}</td>
+                        <td>{{ row[3] }}</td>
+                        <td>{{ row[4] }}</td>
+                        <td>{{ "Autorizado" if row[5] == 1 else "Não Autorizado" }}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+            <a href="/"><button class="botao">Voltar</button></a>
+        </main>
+        <script src="../static/Js/lista_tentativas.js"></script>            
+    </body>
+    </html>
